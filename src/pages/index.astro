@@ -1,16 +1,18 @@
 ---
+import Layout from "../layouts/Layout.astro";
 
+// components
+import Hero from "../components/landing/Hero.astro";
+import More from "../components/landing/More.astro";
+import Features from "../components/landing/Features.astro";
+import Projects from "../components/landing/Projects.astro";
+import About from "../components/landing/About.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout tittle="Bienvenidos a mi sitio">
+  <Hero />
+  <More />
+  <Features />
+  <About />
+  <Projects />
+</Layout>
