@@ -1,3 +1,9 @@
+/* Directivas de Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tus estilos manuales */
 body {
   background: #202020;
   color: whitesmoke;
